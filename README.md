@@ -48,7 +48,7 @@ Kept public on purpose: each one still shows how it was built, and why it stoppe
 |---|---|---|
 | [rpgCore](https://github.com/rfd62794/rpgCore) | Retired → RFDGameStudio | One Python engine driving games in four genres; 3,628 commits. [Retrospective](https://rfditservices.com/archives/rpgcore/) |
 | [PhantomArbiter](https://github.com/rfd62794/PhantomArbiter) | Semi-retired | Solana arbitrage system across Python, Rust (PyO3) and TypeScript. [Post-mortem](https://rfditservices.com/archives/phantom-arbiter/) |
-| [ContentPipeline](https://github.com/rfd62794/ContentPipeline) | Retiring → RFD_YT_Engine | YAML beat sheet to finished YouTube Short, with OBS and YouTube API automation. [Retrospective](https://rfditservices.com/archives/contentpipeline/) |
+| [ContentPipeline](https://github.com/rfd62794/ContentPipeline) | Retired → RFD_YT_Engine | YAML beat sheet to finished YouTube Short, with OBS and YouTube API automation. [Retrospective](https://rfditservices.com/archives/contentpipeline/) |
 | [RFD_IT_Publishing](https://github.com/rfd62794/RFD_IT_Publishing) | Merged → RFDGameStudio | itch.io publishing CLI designed so it could be absorbed without a rewrite. [Retrospective](https://rfditservices.com/archives/rfd-it-publishing/) |
 
 Smaller games and experiments, sorted honestly by how finished they are, are on
