@@ -19,9 +19,18 @@ studies explain what it does and how it was built.
 | DNC Compliance Automation *(private)* | One Slack command scrubs call lists across every dialer platform, with an audit trail. 3,078 tests. [Case study](https://rfditservices.com/projects/dnc-compliance-tool/) |
 | Telesero Admin Suite *(private)* | Watches live dialer metrics and makes the balancing changes a person used to make by hand. 619 passing tests. [Case study](https://rfditservices.com/projects/telesero-admin-suite/) |
 | Zoom Wallboard Inside the Dialer *(private)* | Real-time Zoom Contact Center availability inside the dialer, for warm transfers without switching tabs. [Case study](https://rfditservices.com/projects/cb-zoom-wallboard/) |
-| [Convoso_NewLeadLoad](https://github.com/rfd62794/Convoso_NewLeadLoad) | Chrome extension that creates the follow-up lead after a call is dispositioned in Convoso. [Details](https://rfditservices.com/projects/convoso-auto-create-lead/) |
+| Convoso New Lead Load *(Chrome Web Store)* | Chrome extension that creates the follow-up lead after a call is dispositioned in Convoso. [Details](https://rfditservices.com/projects/convoso-auto-create-lead/) |
 
 More Chrome Web Store tools are on the [Work page](https://rfditservices.com/projects/#contact-center-automation).
+
+## Agent systems
+
+| Project | What it is |
+|---|---|
+| AgentFlow *(private, retired)* | A harness that ran Claude Code and Devin from one shared directive queue across five installs, with humans holding the only keys to Done and merge. About 900 merged PRs and 10,000 tests in six weeks. Retired when it started improving itself instead of the product; the parts that worked are being carried into smaller projects. |
+| [rfd_method](https://github.com/rfd62794/rfd_method) | The proof standard behind it: stop and verify, write a directive, implement, certify the test floor, advance. |
+| [RFDRepoMan](https://github.com/rfd62794/RFDRepoMan) | 37 typed git and GitHub actions for agents, with risky ones behind an explicit confirmation gate. |
+| [ClineMCP](https://github.com/rfd62794/ClineMCP) | Long-lived, observable coding-agent sessions as an MCP service. |
 
 ## Engineering tools
 
@@ -47,7 +56,7 @@ Kept public on purpose: each one still shows how it was built, and why it stoppe
 | Project | Status | What it shows |
 |---|---|---|
 | [rpgCore](https://github.com/rfd62794/rpgCore) | Retired → RFDGameStudio | One Python engine driving games in four genres; 3,628 commits. [Retrospective](https://rfditservices.com/archives/rpgcore/) |
-| [PhantomArbiter](https://github.com/rfd62794/PhantomArbiter) | Semi-retired | Solana arbitrage system across Python, Rust (PyO3) and TypeScript. [Post-mortem](https://rfditservices.com/archives/phantom-arbiter/) |
+| PhantomArbiter *(private)* | Semi-retired | Solana arbitrage system across Python, Rust (PyO3) and TypeScript. [Post-mortem](https://rfditservices.com/archives/phantom-arbiter/) |
 | [ContentPipeline](https://github.com/rfd62794/ContentPipeline) | Retired → RFD_YT_Engine | YAML beat sheet to finished YouTube Short, with OBS and YouTube API automation. [Retrospective](https://rfditservices.com/archives/contentpipeline/) |
 | [RFD_IT_Publishing](https://github.com/rfd62794/RFD_IT_Publishing) | Merged → RFDGameStudio | itch.io publishing CLI designed so it could be absorbed without a rewrite. [Retrospective](https://rfditservices.com/archives/rfd-it-publishing/) |
 
